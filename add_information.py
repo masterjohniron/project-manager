@@ -2,10 +2,10 @@ import pandas as pd
 import os
 
 file_name = 'server_delopy.csv'
-date = [pd.to_datetime('2020-06-23')]
+date = [pd.to_datetime('2020-05-23')]
 hour = [11]
-location = ['2901 Coronado Dr']
-number = [31]
+location = ['1360 stree dd']
+number = [22]
 company = ['alibaba']
 
 result = pd.DataFrame(columns=('date', 'hour', 'location', 'number', 'company'))
