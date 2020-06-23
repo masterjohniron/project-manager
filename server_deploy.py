@@ -55,7 +55,7 @@ def main():
         send_dingding_msg(msg_content, robot_id='')
     else:
         mss = '无最新工作任务'
-        send_dingding_msg(mss, robot_id='0d55a169f83d65c62337d9046ee74728fcd02e76aa9e576001854bf6fda36639')
+        send_dingding_msg(mss, robot_id='')
         pass
 
 
