@@ -50,9 +50,9 @@ def main():
             msg_content += '数量:' + str(df.at[i, 'number']) + str('台') + '\n'
             msg_content += '所属公司:' + str(df.at[i, 'company']) + '\n'
             if df.at[i, 'company'] == 'alibaba':
-                msg_content += '注意事项:' + str('不要堵住地面通风口') + '\n'
+                msg_content += '注意事项:' + str('xxx') + '\n'
     if post_stat == 1:
-        send_dingding_msg(msg_content, robot_id='0d55a169f83d65c62337d9046ee74728fcd02e76aa9e576001854bf6fda36639')
+        send_dingding_msg(msg_content, robot_id='')
     else:
         mss = '无最新工作任务'
         send_dingding_msg(mss, robot_id='0d55a169f83d65c62337d9046ee74728fcd02e76aa9e576001854bf6fda36639')
